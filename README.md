@@ -15,3 +15,5 @@ Referenciamos un elemento.
 No hace render, unicamente cambia la logica de memoria que tenga.
 La primer problematica, es el uso de memoria para datos grandes.
 No es 100% fiable su memoria podria fallar.
+
+#### useCallback
