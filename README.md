@@ -10,3 +10,8 @@ Referenciamos un elemento.
 <button ref={refButton} onClick={handleClick}>Click here to change name</button>
 <button onClick={() => refButton.current.click()}>Click here to other button clone</button>
 ```
+
+#### useMemo
+No hace render, unicamente cambia la logica de memoria que tenga.
+La primer problematica, es el uso de memoria para datos grandes.
+No es 100% fiable su memoria podria fallar.
